@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(206, 162, 162);
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-items {
+  width: 500px;
+  border: 2px solid red;
+  margin: 50px;
+  box-shadow: 10px black;
+}
+.flex-items div:hover p {
+  display: block;
+}
+img {
+  width: 100px;
+}
+.flex div div {
+  text-align: center;
+}
+div + h1 {
+  text-align: center;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+.overview {
+  display: none;
+}
+.flex div div img:hover + p {
+  display: block;
+}
+p {
+  text-align: center;
+}
